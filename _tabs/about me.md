@@ -3,35 +3,37 @@
 icon: fas fa-info-circle
 order: 1
 ---
-- Masters student in Information Systems Security.
-- Cyber Security Engineer with a wide skill set in Security Testing, Vulnerability assessment, and cloud security auditing. Demonstrated experience in Web Application Security, API Security and Network Security.
+- As a Cyber Security Engineer, I bring a diverse skill set encompassing Security Testing, Vulnerability Assessment, and Pentesting Skills. With a proven track record in Web Application Security, API Security, and Network Security, I excel in identifying and mitigating risks to safeguard critical systems and data. My hands-on experience in implementing robust security measures and conducting thorough assessments enables me to deliver actionable insights and enhance overall security posture. Committed to staying ahead of emerging threats, I continuously refine my expertise to address evolving challenges in the cyber security landscape.
+
+---
 
 ## Experience
 - #### **Security Engineer**
-*ITCODE Infotech*
+*ITCODE Infotech*<br>
+    - Comprehensive penetration testing on diverse technology stacks, including web applications, cloud applications, and APIs, ensuring a thorough evaluation of security measures.
+    - Experienced with tools such as Nmap, Burp Suite, Metasploit, OWASP ZAP, etc. to uncover vulnerabilities in networks, apps, and systems.
+    - Produced detailed and comprehensive penetration testing reports, documenting vulnerabilities discovered during testing and providing clear remediation steps for each identified issue.
+    - Created Exploits and Automation Scripts using Python and bash.
 
-- #### **Web Development Intern**
-*FTS(Failure To Success)*
 
 ---
 
 ## Certifications
-- CompTIA Security+ SY0-601
-- (ISC)² CC - Certified in Cybersecurity
-- TryHackMe SOC Level 1
+- **CompTIA Security+ SY0-601**{: style="font-size:20px"}
+- **(ISC)² CC - Certified in Cybersecurity**{: style="font-size:20px"}
+- **TryHackMe SOC Level 1**{: style="font-size:20px"}
 
 ---
 
 ## Skills
 
-- Network Security: Firewall, IDS/IPS, VPN
+- Network Security: Firewall, Intrusion Detection (IDS), Intrusion Prevention (IPS), VPN
 - OWASP Top 10, CIS benchmark
 - Solid understanding of programming concepts and experience with (C, C++, Java, JavaScript, Python, SQL, NoSQL, Bash,
 Powershell)
-- OS Fundamentals, Virtual Machines, Active Directory, SIEM, File Permissions
-- Vulnerability Assessment
-- Web Application Security
-- Burp Suite, Nmap, Wireshark, MS Office 365
+- OS Fundamentals, Virtual Machines, Active Directory, SIEM, File Permissions, Vulnerability Assessment, Web Application Security
+- Burp Suite, Nmap, Snort, Splunk, Wireshark, MS Office 365, SIEM
+- Actively participating in Capture The Flag (CTF) competitions on various online platforms.
 
 ---
 
