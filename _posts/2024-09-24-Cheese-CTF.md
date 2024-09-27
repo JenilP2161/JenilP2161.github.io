@@ -3,7 +3,7 @@ title: TryHackMe - Cheese CTF
 categories: [Red Team, TryHackMe]
 tags: [thm-easy, file disclosure, privesc]
 author: Jenil
-image: assets/images/TryHackMe-CheeseCTF/cheeseCTF.png
+image: assets/images/TryHackMe-CheeseCTF/cheese_ctf.png
 ---
 
 Cheese CTF started by discovering file disclosure vulnerability and getting reverse shell into the machine. Writing permission on user's ssh keys gave the ssh connection as user. By exploiting `Sudo` permission of the systemd timer and service, we can get root flag. 
