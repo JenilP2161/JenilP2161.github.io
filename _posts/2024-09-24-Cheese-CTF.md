@@ -15,13 +15,13 @@ Cheese CTF started by discovering file disclosure vulnerability and getting reve
 $ nmap -sC -sV 10.10.156.141
 ```
 
-The scan will return so many ports (almost all), but we only need two ports:
+The scan will return so many ports (almost all), but we only need two following ports:
 - 22/SSH
 - 80/HTTP
 
 Vising `http://cheese.thm/` page, we have just a static page and one login page on `/login.php` but it is not useful as we don't have credentials.
 
-![Login Page](/assets/images/TryHackME-CheeseCTF/login.png)
+![Login Page](/assets/images/TryHackMe-CheeseCTF/login.png)
 
 ## Shell as www-data
 
@@ -41,7 +41,7 @@ There is nothing interesting on `users` and `orders` page, but we can see a link
 
 We can exploit this php filter to read sensitive file :
 
-![/etc/passwd File](/assets/images/TryHackME-CheeseCTF/passwd.png)
+![/etc/passwd File](/assets/images/TryHackMe-CheeseCTF/passwd.png)
 
 Here we can see there is one user named `comte` on the box by reading `/etc/passwd` file. I tried to include files from my local machine but it was not working. We can read `/proc/self/cmdline` to know that the web app is running by `www-data`. So, we can't read any files in comte user's directory. We can use the following python script to get reverse shell as www-data that I got from [here](https://book.hacktricks.xyz/pentesting-web/file-inclusion/lfi2rce-via-php-filters) :
 
